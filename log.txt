@@ -1,0 +1,10 @@
+I/WeatherActivity: onCreate: This is a log message.
+I/WeatherActivity: onStart: This is a log message.
+I/WeatherActivity: onResume: This is a log message.
+D/EGL_emulation: eglMakeCurrent: 0xdcf853c0: ver 3 0 (tinfo 0xdcf83660)
+I/WeatherActivity: onPause: This is a log message.
+D/EGL_emulation: eglMakeCurrent: 0xdcf853c0: ver 3 0 (tinfo 0xdcf83660)
+I/WeatherActivity: onStop: This is a log message.
+I/WeatherActivity: onStart: This is a log message.
+I/WeatherActivity: onResume: This is a log message.
+D/EGL_emulation: eglMakeCurrent: 0xdcf853c0: ver 3 0 (tinfo 0xdcf83660)

@@ -22,7 +22,7 @@ public class ForecastFragment extends Fragment {
         weather.setImageResource(R.drawable.ic_action_name);
         View v = new View(getContext());
         //View v = super.onCreateView(inflater, container, savedInstanceState);
-        //  v.setBackgroundColor(0xFF00FF00);
+        // v.setBackgroundColor(0xFF00FF00);
         LinearLayout rootViewGroup = new LinearLayout(getActivity());
         rootViewGroup.setOrientation(LinearLayout.VERTICAL);
         rootViewGroup.addView(day);

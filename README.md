@@ -11,6 +11,12 @@ Student Info
 =======================
 
 * Name: Bùi Vũ Huy
-* ID: USTHBI7-082
+		Mai Tuấn Hải
+		Vương Bảo Sơn
+		Hà Huy Bình
+* ID: USTHBI7-082 (Bùi Vũ Huy)
+	  USTHBI7-056 (Mai Tuấn Hải)
+	  USTHBI7-140 (Vương Bảo Sơn) 
+	  USTHBI7-024 (Hà Huy Bình)
 * Group ID: 8
 * Project Name: IRCClient

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lê Huy Đức</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Chào fragment trống</string>
+    <string name="Monday">T2</string>
+    <string name="Tuesday">T3</string>
+    <string name="Wednesday">T4</string>
+    <string name="Thursday">T5</string>
+    <string name="Friday">T6</string>
+    <string name="Saturday">T7</string>
+    <string name="Sunday">CN</string>
+    <string name="Sunny">Nắng</string>
+	<string name="Rainy">Mưa</string>
+	<string name="Cloudy">Mây</string>
+	<string name="Extremely_Sunny">Cực nắng</string>
+	<string name="Party_Cloudy">Nhiều mây</string>
+    <string name="action_favorite">Yêu thích</string>
+
+</resources>

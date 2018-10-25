@@ -1,6 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LabWorkMobile</string>
+    <string name="app_name">Lê Huy Đức</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello Huy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Monday">Mon</string>
+    <string name="Tuesday">Tue</string>
+    <string name="Wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="Friday">Fri</string>
+    <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
+    <string name="Sunny">Sunny</string>
+	<string name="Rainy">Rainy</string>
+	<string name="Cloudy">Cloudy</string>
+	<string name="Extremely_Sunny">Extremely Sunny</string>
+    <string name="Party_Cloudy">Party Cloudy</string>
+    <string name="action_favorite">Favorite</string>
+
 </resources>

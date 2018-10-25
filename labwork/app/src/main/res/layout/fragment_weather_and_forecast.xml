@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15px">
+
+    <fragment
+        android:id="@+id/weather_fragment"
+        android:name="weather.usth.edu.vn.labworkmobile.WeatherFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/forecast_weather"
+        android:name="weather.usth.edu.vn.labworkmobile.ForecastFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>

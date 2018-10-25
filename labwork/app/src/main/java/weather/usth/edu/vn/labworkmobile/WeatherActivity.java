@@ -1,6 +1,9 @@
 package weather.usth.edu.vn.labworkmobile;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
@@ -12,10 +15,19 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         Log.i(TAG, "onCreate: This is a log message.");
-        ForecastFragment firstFragment = new ForecastFragment();
+        // ForecastFragment firstFragment = new ForecastFragment();
         // Add the fragment to the 'container' FrameLayout
-        getSupportFragmentManager().beginTransaction().add(
-                R.id.container, firstFragment).commit();
+        // getSupportFragmentManager().beginTransaction().add(
+             // R.id.container, firstFragment).commit();
+        PagerAdapter adapter = new HomeFragmentPageAdapter(
+                getSupportFragmentManager());
+
+        ViewPager pager = (ViewPager) findViewById(R.id.pager);
+        pager.setOffscreenPageLimit(3);
+        pager.setAdapter(adapter);
+
+        TabLayout tableLayout = (TabLayout) findViewById(R.id.container2);
+        tableLayout.setupWithViewPager(pager);
     }
     @Override
     protected void onPause() {
@@ -47,5 +59,7 @@ public class WeatherActivity extends AppCompatActivity {
         super.onStop();
         Log.i(TAG, "onStop: This is a log message.");
     }
+
+
 
 }

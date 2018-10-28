@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MyIRCClient</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="notHaveAcc">Do you have an account ? </string>
+    <string name="sign_up">Sign up</string>
+    <string name="remember">Remember my email and password</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="testmess">Hey , Are you Kashima from Kancole ????? Hey , Are you Kashima from Kancole ?????</string>
+    <string name="testmess2">Hey </string>
+    <string name="testmess3">Hey Kashima !!!</string>
+    <string name="testmess4">Kashima, you\'re THICC !!!</string>
+    <string name="testmess5">Hotoni ??? ( ͡° ͜ʖ ͡°)</string>
+    <string name="testmess6">Kashima !!!</string>
+    <string name="testmess7">Kashima ????? </string>
+    <string name="testmess8">Hi there</string>
+    <string name="testmess9">Why didn\'t you answer me ?</string>
+    <string name="testmess10">I\'m user 10</string>
+    <string name="testmess11">I\'m user 11</string>
+    <string name="testmess12">I\'m user 12</string>
+    <string name="occupation">ICT</string>
+    <string name="server_name">Bui Vu Huy</string>
+    <string name="user_name">huybv1998@gmail.com</string>
+    <string name="settings_title">IRC Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reenter_password">Reenter password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="chat_name_content">Bui Vu Huy</string>
+    <string name="chat_name_header">Chat name: </string>
+    <!--Menu section-->
+    <string name="default_channel">#Global</string>
+    <string name="create_channel">Create new channel</string>
+    <string name="delete_channel">Delete a channel</string>
+    <string name="about">About project</string>
+    <string name="switch_server">Switch Server</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="logout">Logout</string>
+    <string name="OK_FINE">LET ME OUT OF HERE</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>

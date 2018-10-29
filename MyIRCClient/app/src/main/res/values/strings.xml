@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyIRCClient</string>
+    <string name="app_name">IRC Client</string>
 
     <string name="prompt_email">Email</string>
     <string name="password">Password</string>

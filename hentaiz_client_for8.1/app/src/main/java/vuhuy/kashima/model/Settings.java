@@ -1,24 +1,4 @@
-/*
-Huy - Yet Another Android IRC Client
 
-Copyright 2009-2015 Sebastian Kaspari
-Copyright 2012 Daniel E. Moctezuma <democtezuma@gmail.com>
-
-This file is part of Huy.
-
-Huy is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Huy is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Huy.  If not, see <http://www.gnu.org/licenses/>.
- */
 package vuhuy.kashima.model;
 
 import android.content.Context;
@@ -29,16 +9,7 @@ import android.preference.SwitchPreference;
 
 import vuhuy.kashima.R;
 
-/**
- * The settings class is a helper class to access the different preferences via
- * small and simple methods.
- *
- * Note: As this class carries a Context instance as private member, instances of
- *          this class should be thrown away not later than when the Context should
- *          be gone. Otherwise this could leak memory.
- *
- * @author Sebastian Kaspari <sebastian@kashima.org>
- */
+
 public class Settings
 {
     private SwitchPreference mySwitch;

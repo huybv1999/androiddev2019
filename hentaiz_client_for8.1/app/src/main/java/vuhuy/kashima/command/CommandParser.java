@@ -1,23 +1,4 @@
-/*
-Huy - Yet Another Android IRC Client
 
-Copyright 2009-2013 Sebastian Kaspari
-
-This file is part of Huy.
-
-Huy is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Huy is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Huy.  If not, see <http://www.gnu.org/licenses/>.
- */
 package vuhuy.kashima.command;
 
 import java.util.HashMap;
@@ -55,36 +36,6 @@ import vuhuy.kashima.model.Server;
 
 import android.content.Intent;
 
-import vuhuy.kashima.command.handler.AMsgHandler;
-import vuhuy.kashima.command.handler.AwayHandler;
-import vuhuy.kashima.command.handler.BackHandler;
-import vuhuy.kashima.command.handler.CloseHandler;
-import vuhuy.kashima.command.handler.DeopHandler;
-import vuhuy.kashima.command.handler.DevoiceHandler;
-import vuhuy.kashima.command.handler.EchoHandler;
-import vuhuy.kashima.command.handler.HelpHandler;
-import vuhuy.kashima.command.handler.JoinHandler;
-import vuhuy.kashima.command.handler.KickHandler;
-import vuhuy.kashima.command.handler.MeHandler;
-import vuhuy.kashima.command.handler.ModeHandler;
-import vuhuy.kashima.command.handler.MsgHandler;
-import vuhuy.kashima.command.handler.NickHandler;
-import vuhuy.kashima.command.handler.NoticeHandler;
-import vuhuy.kashima.command.handler.OpHandler;
-import vuhuy.kashima.command.handler.PartHandler;
-import vuhuy.kashima.command.handler.QueryHandler;
-import vuhuy.kashima.command.handler.QuitHandler;
-import vuhuy.kashima.command.handler.RawHandler;
-import vuhuy.kashima.command.handler.TopicHandler;
-import vuhuy.kashima.command.handler.VoiceHandler;
-import vuhuy.kashima.command.handler.WhoisHandler;
-import vuhuy.kashima.exception.CommandException;
-
-/**
- * Parser for commands
- * 
- * @author Sebastian Kaspari <sebastian@kashima.org>
- */
 public class CommandParser
 {
     private final HashMap<String, BaseHandler> commands;

@@ -1,24 +1,4 @@
-/*
-Huy - Yet Another Android IRC Client
 
-Copyright 2009-2013 Sebastian Kaspari
-Copyright 2012 Daniel E. Moctezuma <democtezuma@gmail.com>
-
-This file is part of Huy.
-
-Huy is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Huy is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Huy.  If not, see <http://www.gnu.org/licenses/>.
- */
 package vuhuy.kashima.irc;
 
 import java.io.IOException;
@@ -44,13 +24,7 @@ import vuhuy.kashima.model.Status;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.util.Log;
 
-/**
- * The class that actually handles the connection to an IRC server
- *
- * @author Sebastian Kaspari <sebastian@kashima.org>
- */
 public class IRCConnection extends IRCClient
 {
     private static final String TAG = "Huy/IRCConnection";
@@ -128,20 +102,7 @@ public class IRCConnection extends IRCClient
         autojoinChannels = channels;
     }
 
-    /**
-     * On version (CTCP version)
-     *
-     * This is a fix for pircbot as pircbot uses the version as "real name" and as "version"
-     */
-    @Override
-    protected void onVersion(String sourceNick, String sourceLogin,    String sourceHostname, String target)
-    {
-        this.sendRawLine(
-            "NOTICE " + sourceNick + " :\u0001VERSION " +
-            "Huy - Yet Another Android IRC Client - http://www.kashima.org" +
-            "\u0001"
-        );
-    }
+
 
     /**
      * Set the ident of the user

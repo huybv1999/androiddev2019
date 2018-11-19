@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Hentai_Z</string>
+    <string name="app_full_name" translatable="false">Group 9 - IRC Client</string>
+    <string name="app_irc" translatable="false">irc://irc.freenode.net</string>
+    <string name="group_info" translatable="false">
+        Bùi Vũ Huy
+        Mai Tuấn Hải
+        Vương Bảo Sơn
+        Hà Huy Bình
+    </string>
+
+</resources>

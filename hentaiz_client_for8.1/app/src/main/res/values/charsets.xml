@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="charsets" translatable="false">
+        <item name="UTF-8">UTF-8</item>
+    </string-array>
+</resources> 

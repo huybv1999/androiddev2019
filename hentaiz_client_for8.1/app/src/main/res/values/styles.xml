@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="lighttheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlHighlight">@color/control_highlight</item>
+        <item name="textcolor">@color/text_color</item>
+        <item name="MessColor">@color/mess_color</item>
+        <item name="android:textColorSecondary">@color/mess_color</item>
+        <item name="android:textColorPrimary">@color/mess_color</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+
+
+    </style>
+
+    <!--Dark mode -->
+    <style name="darktheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#43ba27</item>
+        <item name="colorPrimaryDark">#346628</item>
+        <item name="colorAccent">#fc9622</item>
+        <item name="colorControlHighlight">#ffe11c</item>
+        <item name="textcolor">@color/text_color_dark</item>
+        <item name="MessColor">@color/mess_color_dark</item>
+        <item name="android:textColorSecondary">@color/mess_color_dark</item>
+        <item name="android:textColorPrimary">@color/mess_color_dark</item>
+        <item name="android:windowBackground">@color/window_background2</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+</resources>

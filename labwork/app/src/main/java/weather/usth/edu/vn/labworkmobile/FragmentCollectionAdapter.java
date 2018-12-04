@@ -13,6 +13,7 @@ class HomeFragmentPageAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int i) {
+
         return new WeatherAndForecastFragment();
     }
 

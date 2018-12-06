@@ -8,29 +8,23 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.support.design.widget.NavigationView;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.Toast;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 /* Created by Huy and ConcernGuy
    huybv1998@gmail.com
+   IRC Client for Android
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -46,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
     private Connection connection;
     private String channel;
-    private SenderFragment sendMessage;
 
 
 
@@ -78,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner channel = findViewById(R.id.channel);
         List<String> channels = new ArrayList<>();
-        this.channel = "No channel";
+        this.channel = "No Channel";
         channels.add(this.channel);
         adapter2 = new ArrayAdapter<>(MainActivity.this,
                 android.R.layout.simple_spinner_item,
@@ -109,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText message = findViewById(R.id.message);
         message.setHint(nick);
+        message.setHintTextColor(getResources().getColor(R.color.hint_color));
 
         new ConnectTask().execute(host, port, nick, password,
                 auth_nickserv, autojoin, script);
@@ -208,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
         if (channel.isEmpty())
             channel = this.channel;
         connection.send("PRIVMSG " + channel + " :" + message);
-        log(String.format("<font color=\"#FF4500\">%s</font>: " +
+        log(String.format("<font color=\"#A500A5\">%s</font>: " +
                 "<font color=\"#FF4500\">&lt;</font>" +
                 "%s<font color=\"#FF4500\">&gt;</font> " +
                 "%s", channel, connection.nick, message));
@@ -340,6 +334,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onProgressUpdate(String... values) {
+            super.onProgressUpdate(values);
             parseSrv(values[0]);
         }
 

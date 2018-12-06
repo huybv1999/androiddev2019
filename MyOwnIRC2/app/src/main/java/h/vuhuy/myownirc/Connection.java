@@ -1,5 +1,7 @@
 package h.vuhuy.myownirc;
 
+import android.util.Log;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -9,6 +11,11 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Arrays;
 import java.util.List;
+
+/* Created by Huy and ConcernGuy
+   huybv1998@gmail.com
+   IRC Client for Android
+ */
 
 public class Connection {
 
@@ -65,6 +72,7 @@ public class Connection {
 
             while (running) {
                 String message = in.readLine();
+                Log.i("Connecting", message);
                 if (message != null)
                     listener.rcv(message);
             }

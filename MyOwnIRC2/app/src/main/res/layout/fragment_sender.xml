@@ -2,12 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="@color/chatbox_background"
+    android:background="@color/sender_background"
     android:layout_height="match_parent">
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/colorPrimary"
+    android:background="@color/sender_background"
     android:layout_height="wrap_content"
     android:gravity="bottom"
     android:orientation="horizontal"
@@ -24,7 +24,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
         android:textAlignment="viewStart"
-        android:backgroundTint="@color/colorAccent"
+        android:backgroundTint="@color/button_color"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/text_field_size"
         android:inputType="textMultiLine|textAutoCorrect"
@@ -38,7 +38,8 @@
         android:onClick="send"
         style="?android:attr/borderlessButtonStyle"
         android:src="@mipmap/ic_send_white_36dp"
-        android:background="@android:color/transparent" />
+        android:background="@drawable/rippleeffect"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
 </LinearLayout>
 

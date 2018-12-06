@@ -3,7 +3,7 @@
     <color name="colorPrimary">#008504</color>
     <color name="colorPrimary2">#8effe1</color>
     <color name="colorPrimaryDark">#09410b</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#ff3dff</color>
     <color name="user_color">#62ded1</color>
     <color name="mess_color">#10e2f1</color>
     <color name="text_color">#ffdc13</color>
@@ -11,6 +11,7 @@
     <color name="colorWhite">#FFFFFF</color>
     <!--color of sender box-->
     <color name="sender_mess_color">#ffffff</color>
+    <color name="hint_color">#5b5b5b</color>
     <color name="sender_background">#313C53</color>
     <color name="button_color">#000000</color>
     <color name="button_text_color">#e6e6e6</color>

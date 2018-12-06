@@ -31,6 +31,7 @@
             android:layout_width="fill_parent"
             android:textColor="@color/colorWhite"
             android:layout_height="wrap_content"
+            android:text="kashima"
             android:inputType="textNoSuggestions"
             android:singleLine="true" />
 
@@ -44,6 +45,7 @@
             android:id="@+id/host"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:text="irc.freenode.net"
             android:textColor="@color/colorWhite"
             android:inputType="textNoSuggestions"
             android:singleLine="true" />
@@ -51,8 +53,8 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorWhite"
-            android:text="Port " />
+            android:text="Port "
+            android:textColor="@color/colorWhite" />
 
         <EditText
             android:id="@+id/port"
@@ -63,6 +65,13 @@
             android:minEms="6"
             android:singleLine="true"
             android:text="6667" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/colorWhite" />
+
 
         <EditText
             android:id="@+id/password"
@@ -88,7 +97,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Autojoin channels"
-            android:text="#linux,#haskell,#xml"
+            android:textColorHint="#5b5b5b"
+            android:text="#linux,#haskell,#megamanx,#kancolle"
             android:textColor="@color/colorWhite"
             android:inputType="textPersonName" />
 
@@ -99,13 +109,13 @@
             android:textColor="@color/colorWhite"
             android:ems="10"
             android:hint="Script to send"
+            android:textColorHint="#5b5b5b"
             android:inputType="textPersonName" />
 
 
         <Button
             android:id="@+id/connect"
             android:layout_width="match_parent"
-
             android:layout_height="wrap_content"
             android:text="@string/connect"
             android:onClick="CreateChatActivity" />

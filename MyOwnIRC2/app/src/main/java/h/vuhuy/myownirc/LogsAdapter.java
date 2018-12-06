@@ -11,6 +11,11 @@ import android.widget.TextView;
 
 import java.util.List;
 
+/* Created by ConcernGuy
+   huybv1998@gmail.com
+   IRC Client for Android
+ */
+
 public class LogsAdapter<String> extends ArrayAdapter<String> {
 
     public LogsAdapter(Context context, List<String> items) {
